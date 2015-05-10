@@ -11,7 +11,7 @@ img {
     border:1px solid #021a40;
     background-color:#ff0;
 }
-img.displayed {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -28,18 +28,18 @@ p {
 
 }
 
-.nav {
+nav {
     font-family: cursive;
 
 }
-.nav ul {
+nav ul {
     list-style: none;
     background-color: #444;
     text-align: center;
     padding: 0;
     margin: 0;
 }
-.nav li {
+nav li {
     font-family: 'Oswald', sans-serif;
     font-size: 1.2em;
     line-height: 40px;
@@ -47,18 +47,18 @@ p {
     border-bottom: 1px solid #888;
 }
 
-.nav a {
+nav a {
     text-decoration: none;
     color: #fff;
     display: block;
     transition: .3s background-color;
 }
 
-.nav a:hover {
+nav a:hover {
     background-color: gold;
 }
 
-.nav a.active {
+nav a.active {
     background-color: #fff;
     color: #444;
     cursor: default;
