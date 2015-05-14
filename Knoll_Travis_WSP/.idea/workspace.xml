@@ -24,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.0" vertical-offset="90" max-vertical-offset="555">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="library.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4245283" vertical-offset="330" max-vertical-offset="2895">
-              <caret line="34" column="126" selection-start-line="34" selection-start-column="126" selection-end-line="34" selection-end-column="126" />
+            <state vertical-scroll-proportion="4.148585" vertical-offset="896" max-vertical-offset="2895">
+              <caret line="177" column="130" selection-start-line="177" selection-start-column="130" selection-end-line="177" selection-end-column="130" />
               <folding />
             </state>
           </provider>
@@ -62,10 +72,10 @@
         <option value="$PROJECT_DIR$/footer/footer.html" />
         <option value="$PROJECT_DIR$/home/home.html" />
         <option value="$PROJECT_DIR$/background/background.html" />
-        <option value="$PROJECT_DIR$/../index.html" />
         <option value="$PROJECT_DIR$/compontents/cta/cta.html" />
         <option value="$PROJECT_DIR$/compontents/css/styles.css" />
         <option value="$PROJECT_DIR$/compontents/about/about.html" />
+        <option value="$PROJECT_DIR$/../index.html" />
         <option value="$PROJECT_DIR$/../library.html" />
       </list>
     </option>
@@ -74,8 +84,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
-    <option name="y" value="24" />
+    <option name="y" value="23" />
     <option name="width" value="720" />
     <option name="height" value="545" />
   </component>
@@ -201,7 +210,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="24" width="720" height="545" extended-state="0" />
+    <frame x="0" y="23" width="720" height="545" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -272,14 +281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25" vertical-offset="120" max-vertical-offset="555">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -371,10 +372,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="90" max-vertical-offset="555">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4245283" vertical-offset="330" max-vertical-offset="2895">
-          <caret line="34" column="126" selection-start-line="34" selection-start-column="126" selection-end-line="34" selection-end-column="126" />
+        <state vertical-scroll-proportion="4.148585" vertical-offset="896" max-vertical-offset="2895">
+          <caret line="177" column="130" selection-start-line="177" selection-start-column="130" selection-end-line="177" selection-end-column="130" />
           <folding />
         </state>
       </provider>
