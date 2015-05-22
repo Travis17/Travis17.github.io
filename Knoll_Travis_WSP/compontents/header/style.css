@@ -8,6 +8,7 @@ img {
     float: left;
     padding: 10px 0px 10px 30px;
     font-family: Georgia serif;
+    text-decoration: none;
 }
 
 nav {
@@ -17,9 +18,10 @@ nav {
 #right  {
     float: right;
     padding: 5px;
-    text-decoration: none;
+
 }
 
 #right a {
     padding-left: 10px;
+    text-decoration: none;
 }
