@@ -1,0 +1,29 @@
+body {
+    margin: 0px 0px 0px 0px;
+    background-color: #ffffff;
+    text-align: left;
+    display: block;
+}
+
+#left {
+    display: inline-block;
+    margin-left: 24px;
+    font-family: novecento_sans_widelight, sans-serif;
+    font-size: 24px;
+    color: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+a {
+    text-decoration: none;
+}
+
+#right {
+    float: right;
+    padding-right: 50px;
+}
+
+aside {
+    float: right;
+}

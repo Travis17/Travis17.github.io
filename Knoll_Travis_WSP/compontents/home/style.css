@@ -1,0 +1,48 @@
+body {
+    background-image: url("images/WMC1.png");
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 70px;
+    background: #000000;
+    border: 1px solid #CCC;
+    margin: 0px auto;
+}
+
+header nav a {
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: gold;
+    text-decoration: none;
+}
+
+#title {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 175px;
+}
+h1 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 18px;
+}
+#start a {
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    background-color: #000000;
+    margin: 10px 475px 10px 475px;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+#images {
+    padding-top: 20px;
+    padding-left: 75px;
+}

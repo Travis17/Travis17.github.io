@@ -3,53 +3,55 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>WSP</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<section>
-    <article>
-        <h1>Information on or about why to sign up.</h1>
+<div id="wrapper">
+<section id="about">
 
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet</p>
+        <article>
+            <h1>Grove is more than just IRC...</h1>
 
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet</p>
+            <h3>Archives and search</h3>
+            <p>Discussions and archived and searchable.</p>
 
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet</p>
+            <h3>Secure with SSL</h3>
+            <p>Connect to IRC over SSL for security.</p>
 
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet</p>
+            <h3>Better team collaboration</h3>
+            <p>Allows less technical users to participate in IRC discussions via easy to use interface.</p>
 
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet</p>
-    </article>
-</section>
+            <h3>Manage member and channels</h3>
+            <p>Add team members and manage which channels they can access.</p>
 
-<section>
+            <h3>Integrate with GitHub and other services</h3>
+            <p>GitHub integration allows you to puch commit messages to you chat. Post messages with a simple API for other services.</p>
+        </article>
+    </section>
+
+    <section id="form">
     <h1>Create a new account</h1>
 <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
 
         <label for="name">First name:</label><br />
-        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
 
 
         <label for="name">Last name:</label><br />
-        <input id="name" class="input" name="name" type="text" value="" size="30" />
+        <input id="name" class="input" name="name" type="text" value="" size="40" /><br>
 
 
         <label for="name">Email:</label><br />
-        <input id="name" class="input" name="name" type="text" value="" size="30" />
+        <input id="name" class="input" name="name" type="text" value="" size="40" /><br>
 
 
         <label for="password">Password:</label><br />
-        <input id="password" class="input" name="password" type="text" value="" size="30" />
+        <input id="password" class="input" name="password" type="text" value="" size="40" /><br>
 
 
         <label for="password">Confirm Password:</label><br />
-        <input id="password" class="input" name="password" type="text" value="" size="30" />
+        <input id="password" class="input" name="password" type="text" value="" size="40" /><br>
 
 
     <input type="checkbox" name="signup" value="email" checked> I want quality information.<br>
@@ -57,5 +59,7 @@
 </form>
 </section>
 
+
+</div>
 </body>
 </html>

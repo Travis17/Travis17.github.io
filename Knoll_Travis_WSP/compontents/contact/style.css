@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+}
+
+#help {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 75px;
+    border: solid #000000;
+}
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+
+}
+#form {
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 75px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: solid #000000;
+
+}
+#first {
+    float: left;
+    padding-right: 20px;
+}
+
+input {
+    background: white;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(20%,#ffffff));
+    border-radius: 5px;
+}
+
+textarea {
+    background: white;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(20%,#ffffff));
+    border-radius: 5px;
+}

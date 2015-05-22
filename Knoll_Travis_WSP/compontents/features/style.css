@@ -1,0 +1,34 @@
+body {
+    background-color: aliceblue;
+}
+
+#feature {
+    color: black;
+    font-size: 28px;
+    width: 800px;
+    height: 370px;
+    margin: auto;
+
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+}
+h1 {
+    padding-left: 20px;
+    padding-bottom: -100px;
+
+}
+hr {
+padding-left: 100px;
+}
+img {
+    padding-top: 50px;
+    padding-right: 25px;
+
+    float: right;
+
+}
+h4 {
+    margin-right: 0px;
+    font-size: 12px;
+}

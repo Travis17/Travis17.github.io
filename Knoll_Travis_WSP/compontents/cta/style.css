@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+#center {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    margin: 12px 420px 12px 420px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 56px;
+    background-color: red;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 12px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: red;
+}
+h4 {
+    margin-bottom: 22px;
+    font-size: .75rem;
+    letter-spacing: 4px;
+}
+a[href^="https"] {
+
+    display: inline-block;
+    color: #fff;
+    font-size: .6875rem;
+    font-family: FuturaNDLight,sans-serif;
+    font-weight: 400;
+    border: 2px solid rgba(255,255,255,.6);
+    padding: 6px 10px 4px 14px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding-top: 300px;
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: #ffffff;
+
+}
+
+
+#buy {
+    float: left;
+    padding: 10px 25px 0px 105px;
+    margin: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+#sell {
+    float: left;
+    padding: 10px 25px 0px 35px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+#eBaycomp {
+    float: left;
+    padding: 10px 25px 0px 35px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+#about {
+    float: left;
+    padding: 10px 25px 0px 35px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+li  {
+    list-style: none;
+    line-height: 175%;
+
+}
