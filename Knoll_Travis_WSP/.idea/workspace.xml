@@ -27,8 +27,8 @@
       <file leaf-file-name="library.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33707866" vertical-offset="300" max-vertical-offset="2895">
-              <caret line="34" column="124" selection-start-line="34" selection-start-column="124" selection-end-line="34" selection-end-column="124" />
+            <state vertical-scroll-proportion="4.261637" vertical-offset="0" max-vertical-offset="2895">
+              <caret line="177" column="124" selection-start-line="177" selection-start-column="124" selection-end-line="177" selection-end-column="124" />
               <folding />
             </state>
           </provider>
@@ -92,7 +92,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
+    <option name="x" value="-3" />
     <option name="y" value="22" />
     <option name="width" value="857" />
     <option name="height" value="744" />
@@ -345,7 +345,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="22" width="857" height="744" extended-state="0" />
+    <frame x="-3" y="22" width="857" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -752,8 +752,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33707866" vertical-offset="300" max-vertical-offset="2895">
-          <caret line="34" column="124" selection-start-line="34" selection-start-column="124" selection-end-line="34" selection-end-column="124" />
+        <state vertical-scroll-proportion="4.261637" vertical-offset="0" max-vertical-offset="2895">
+          <caret line="177" column="124" selection-start-line="177" selection-start-column="124" selection-end-line="177" selection-end-column="124" />
           <folding />
         </state>
       </provider>
