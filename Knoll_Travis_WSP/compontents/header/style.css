@@ -9,6 +9,7 @@ img {
     padding: 10px 0px 10px 30px;
     font-family: Georgia serif;
     text-decoration: none;
+    color: #CCCCCC;
 }
 
 nav {
@@ -18,10 +19,10 @@ nav {
 #right  {
     float: right;
     padding: 5px;
-
 }
 
 #right a {
     padding-left: 10px;
     text-decoration: none;
+    color: aqua;
 }

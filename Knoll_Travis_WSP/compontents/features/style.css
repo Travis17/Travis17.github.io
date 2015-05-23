@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: #ffffff;
 }
 
 #feature {
@@ -8,27 +8,29 @@ body {
     width: 800px;
     height: 370px;
     margin: auto;
-
     border-style: solid;
     border-width: medium;
     border-color: black;
 }
+h1 + h4 {
+    margin-top: -25px;
+}
 h1 {
-    padding-left: 20px;
-    padding-bottom: -100px;
+    width: 600px;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 100px;
+    padding-left: 10px;
+}
 
-}
-hr {
-padding-left: 100px;
-}
+
 img {
     padding-top: 50px;
     padding-right: 25px;
-
     float: right;
-
 }
 h4 {
     margin-right: 0px;
     font-size: 12px;
+    padding-left: 10px;
+    margin-top: 0px;
 }
