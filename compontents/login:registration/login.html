@@ -7,10 +7,8 @@
 </head>
 
 <body>
-<div id="wrapper">
+<section id="login">
 <section id="about">
-
-        <article>
             <h1>Grove is more than just IRC...</h1>
 
             <h3>Archives and search</h3>
@@ -27,35 +25,34 @@
 
             <h3>Integrate with GitHub and other services</h3>
             <p>GitHub integration allows you to puch commit messages to you chat. Post messages with a simple API for other services.</p>
-        </article>
-    </section>
-
-    <section id="form">
-    <h1>Create a new account</h1>
-<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-
-        <label for="name">First name:</label><br />
-        <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
-
-
-        <label for="name">Last name:</label><br />
-        <input id="name" class="input" name="name" type="text" value="" size="40" /><br>
+       
+</section>
+    
+    
+<form action="#" method="POST" enctype="multipart/form-data">
+<h1>Create a new account</h1>
+        <label for="name">First name:</label>
+        <input id="name" class="input" name="name" type="text" value="" size="55" />
 
 
-        <label for="name">Email:</label><br />
-        <input id="name" class="input" name="name" type="text" value="" size="40" /><br>
+        <label for="name">Last name:</label>
+        <input id="name" class="input" name="name" type="text" value="" size="55" />
 
 
-        <label for="password">Password:</label><br />
-        <input id="password" class="input" name="password" type="text" value="" size="40" /><br>
+        <label for="name">Email:</label>
+        <input id="name" class="input" name="name" type="text" value="" size="55" />
 
 
-        <label for="password">Confirm Password:</label><br />
-        <input id="password" class="input" name="password" type="text" value="" size="40" /><br>
+        <label for="password">Password:</label>
+        <input id="password" class="input" name="password" type="text" value="" size="55" />
 
 
-    <input type="checkbox" name="signup" value="email" checked> I want quality information.<br>
-    <input type="submit" value="Submit">
+        <label for="password">Company Server Name:</label>
+        <input id="password" class="input" name="password" type="text" value="" size="55" />
+
+
+    <input type="checkbox" name="signup" value="email" checked> Use separate for billing.<br>
+    <button>Sign up</button>
 </form>
 </section>
 

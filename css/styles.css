@@ -63,3 +63,30 @@ nav a.active {
     color: #444;
     cursor: default;
 }
+
+a[href^="http://travis17.github.io"] {
+    display: inline-block;
+    color: black;
+    font-size: .6875em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: FuturaNDLight,sans-serif;
+    font-weight: 400;
+    border: 2px solid gold;
+    padding: 7px 15px 7px 15px;
+    margin-bottom: 50px;
+}
+
+
+#test:after {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 70px;
+    background: #000000;
+    border: 1px solid #CCC;
+    margin: 0px auto;
+}
+
+
+

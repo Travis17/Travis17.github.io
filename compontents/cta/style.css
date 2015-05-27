@@ -1,8 +1,7 @@
 body {
     background-color: black;
 }
-
-#center {
+section {
     text-align: center;
     color: white;
     padding-top: 200px;
@@ -19,25 +18,60 @@ h1 {
     border-style: solid;
     border-width: medium;
     border-color: red;
+    text-transform: lowercase;
 }
+
 h4 {
     margin-bottom: 22px;
     font-size: .75rem;
     letter-spacing: 4px;
+    text-transform: uppercase;
 }
-a[href^="https"] {
 
+a[href^="https"] {
     display: inline-block;
     color: #fff;
-    font-size: .6875rem;
+    font-size: .6875em;
+    text-decoration: none;
+    text-transform: uppercase;
     font-family: FuturaNDLight,sans-serif;
     font-weight: 400;
     border: 2px solid rgba(255,255,255,.6);
-    padding: 6px 10px 4px 14px;
+    padding: 7px 15px 7px 15px;
+    margin-bottom: 350px;
 }
 
+
 footer {
-    text-align: center;
-    color: white;
-    padding-top: 300px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  height: 15px;
+  width: 150px;
 }
+
+
+footer:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 51%;
+  background: white;
+  -webkit-transform: skew(0deg, 40deg);
+ 
+}
+
+
+footer:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: white;
+  -webkit-transform: skew(0deg, -40deg);
+  
+}​

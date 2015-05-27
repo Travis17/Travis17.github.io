@@ -2,42 +2,112 @@ body {
     background-color: lightgray;
 }
 
-#help {
-    width: 500px;
-    height: 300px;
-    margin: auto;
-    padding-top: 25px;
-    padding-left: 75px;
-    border: solid #000000;
-}
+
 h1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 24px;
+    margin-right: 130px;
+    padding-bottom: 20px;
 
 }
-#form {
+
+h3 {
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin-right: 300px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin-right: 355px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+section {
+    text-align: center;
     margin: auto;
-    padding-top: 25px;
-    padding-left: 75px;
-    width: 500px;
-    height: 500px;
-    margin: auto;
+    padding-top: 35px;
+    width: 700px;
+    height: 900px;
     border: solid #000000;
+}
 
+p {
+    border: solid 1px #CCCCCC;
+    background-color: #f9f9f9;
+    display: table;
+    padding: 10px 20px 10px 10px;
+    margin: auto;
+    color: pink;
+    border-radius: 5px;
 }
-#first {
-    float: left;
-    padding-right: 20px;
+a {
+    text-decoration: none;
+    color: pink;
+    padding-left: 180px;
 }
+
+
+
+a:before {
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.10em;
+    position: relative;
+    top: 0.1em;
+    vertical-align: top;
+    width: 0.45em;
+}
+
+a:before {
+    left: 0;
+   
+}
+
+
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
 
 input {
     background: white;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(20%,#ffffff));
     border-radius: 5px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 textarea {
     background: white;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(20%,#ffffff));
     border-radius: 5px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
 }
+
+button {
+   
+    border: solid 1px #CCCCCC;
+    background-color: pink;
+    display: table;
+    padding: 12px 211px 12px 211px;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+
+
+
+

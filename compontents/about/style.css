@@ -2,13 +2,18 @@ body {
     background-color: whitesmoke;
 }
 
-#wrapper {
-    width: 970px;
-    padding-right: 15px;
-    padding-left: 15px;
+#content {
+    width: 900px;
+    padding-right: 30px;
+    padding-left: 30px;
     margin-right: auto;
     margin-left: auto;
 }
+
+section {
+    padding-bottom: 300px;
+}
+
 h1 {
     font-size: 28px;
     margin-bottom: 50px;
@@ -20,7 +25,12 @@ h1 {
     letter-spacing: normal;
 }
 
-img {
+h4 {
+    text-align: center;
+    padding-right: 5px;
+}
+
+article > img {
     width:100px;
     height:100px;
     border-radius:50px;
@@ -31,7 +41,12 @@ img {
     background:#000
 }
 
-#three article {
+p {
+    font-size: 18px;
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+}
+
+#threepics article {
     display: inline;
     float: left;
     width: 10%;
@@ -39,7 +54,7 @@ img {
     height: 70px;
     margin: 50px;
 }
-#two article {
+#twopics article {
     display:  inline;
     float: left;
     width: 10%;
@@ -49,6 +64,6 @@ img {
     height: 70px;
     margin: 50px;
 }
-#text {
-    clear: both;
-}
+
+
+

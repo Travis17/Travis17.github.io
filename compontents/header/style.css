@@ -1,28 +1,31 @@
 body {
     background-color: white;
 }
+
+
 img {
     float: left;
+
 }
-#left a {
+#store a  {
     float: left;
-    padding: 10px 0px 10px 30px;
+    padding: 15px 10px 10px 30px;
     font-family: Georgia serif;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
     color: #CCCCCC;
 }
 
-nav {
-    font-size: 12px;
-}
 
-#right  {
+
+#user a {
     float: right;
-    padding: 5px;
-}
-
-#right a {
+    padding: 15px 10px 10px 0px;
     padding-left: 10px;
+    font-family: Georgia serif;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
     color: aqua;
 }
