@@ -7,49 +7,64 @@ body {
 
 header {
 height: 70px;
+width: 100%;
+margin: 0px ;
 border-bottom: 1px solid #CCCCCC;
 
 }
 #logo a {
-  margin-left: 24px;
+  float: left;
+  padding-top: 20px;
+  margin-left: 20px;
   font-family: novecento_sans_widelight, sans-serif;
   font-size: 24px;
-  padding-top: 30px;
   color: #CCCCCC;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
   text-transform: uppercase;
+  text-decoration: none;
   -webkit-transition: color 0.25s;
-
 }
-#social {
+
+li {
+  list-style-type: none;
+}
+
+
+
+#social  {
     float: right;
     padding-right: 50px;
+    padding-top: 20px;
     
-    
+}
+
+#social a {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #CCCCCC;
+  text-decoration: none;
+
 }
 
 #icons {
     float: left;
     display: inline-block;
-    margin-left: 5px;
-    font-family: novecento_sans_widelight, sans-serif;
-    font-size: 18px;
-    color: 24px;
-    letter-spacing: 25px;
-    text-transform: uppercase;
     border-right: 1px solid #CCCCCC;
 }
 
-a {
-    text-decoration: none;
+#social:nth-child(3) {
+  border-bottom: 1px solid black;
 }
+
+
 
 section  {
     float: right;
     width: 715px;
     height: 600px;
+    
     padding-top: 20px;
-    padding-right: 100px;
+    padding-right: 200px;
 
 
 }
@@ -59,6 +74,9 @@ aside {
     width: 200px;
     display: inline-block;
 
+}
+section aside {
+  margin: auto;
 }
 
 
