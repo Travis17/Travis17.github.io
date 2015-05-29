@@ -50,7 +50,16 @@ li {
     display: inline-block;
     border-right: 1px solid #CCCCCC;
 }
-
+#social input {
+  width: 200px;
+  height: 14px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  font-size: 12px;
+}
 
 section  {
     float: right;
