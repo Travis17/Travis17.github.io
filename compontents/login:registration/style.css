@@ -41,12 +41,15 @@ h1 {
 form h1 {
     border-bottom: 2px solid #F0F0F0;
 }
-
+label {
+    font-size: 18px;
+    margin-top: 12px;
+}
 input{
     background: white;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,gainsboro), color-stop(20%,#ffffff));
     border-radius: 5px;
     font-family: sans-serif;
-    padding-top: 20px;
-    margin-top: 10px;
+    padding-top: 10px;
+    margin-top: 5px;
 }

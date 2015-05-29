@@ -43,7 +43,6 @@ li {
   font-size: 16px;
   color: #CCCCCC;
   text-decoration: none;
-
 }
 
 #icons {
@@ -52,17 +51,11 @@ li {
     border-right: 1px solid #CCCCCC;
 }
 
-#social:nth-child(3) {
-  border-bottom: 1px solid black;
-}
-
-
 
 section  {
     float: right;
     width: 715px;
-    height: 600px;
-    
+    height: 600px; 
     padding-top: 20px;
     padding-right: 200px;
 
@@ -75,8 +68,6 @@ aside {
     display: inline-block;
 
 }
-section aside {
-  margin: auto;
-}
+
 
 

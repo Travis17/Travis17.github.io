@@ -11,27 +11,28 @@ body {
 
 section {
     text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
 }
 
 h1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 100px;
+    font-size: 50px;
     color: green;
 }
 
 h3 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 44px;
+    font-size: 38px;
     color: aquamarine;
 }
 
-
-#arrow-down {
-    margin: auto;
+section::before {
+    content: "";
     width: 0;
     height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 50px solid green;
-
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 150px solid green;
 }
+
